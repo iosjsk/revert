@@ -1,0 +1,10 @@
+name: Warmup Project
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+     - name: Running first program
+       run: echo "Hello World This is Santosh"
+     - name: Running Second Program
+       run: echo "Hello world This is IOSJSK"
